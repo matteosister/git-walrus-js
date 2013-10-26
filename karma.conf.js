@@ -16,17 +16,17 @@ module.exports = function(config) {
       'app/bower_components/angular-resource/angular-resource.js',
       'app/bower_components/angular-cookies/angular-cookies.js',
       'app/bower_components/angular-sanitize/angular-sanitize.js',
-      'app/scripts/*.js',
-      'app/scripts/**/*.js',
+      '.tmp/scripts/*.js',
+      '.tmp/scripts/**/*.js',
       'test/mock/**/*.js',
-      'test/spec/**/*.js'
+      '.tmp/spec/**/*.js'
     ],
 
     // list of files / patterns to exclude
     exclude: [],
 
     // web server port
-    port: 8080,
+    port: 8081,
 
     // level of logging
     // possible values: LOG_DISABLE || LOG_ERROR || LOG_WARN || LOG_INFO || LOG_DEBUG
