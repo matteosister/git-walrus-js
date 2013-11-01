@@ -9,6 +9,6 @@ angular.module('gitWalrusJsApp', [
     $routeProvider
       .when '/',
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        controller: 'HomepageCtrl'
       .otherwise
         redirectTo: '/'

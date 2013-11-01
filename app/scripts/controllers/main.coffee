@@ -1,7 +1,7 @@
 'use strict'
 
 angular.module('gitWalrusJsApp')
-  .controller 'MainCtrl', ($scope) ->
+  .controller 'HomepageCtrl', ($scope) ->
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
